@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/
@@ -71,6 +73,10 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# exclude data from source control by default
+/data/
+/models/
 
 # pyenv
 .python-version
